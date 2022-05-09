@@ -1,0 +1,90 @@
+body {
+  background-color: antiquewhite;
+  color: black;
+  font-family: Arial;
+}
+
+nav {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav,
+footer {
+  background-color: black;
+  color: antiquewhite;
+}
+
+nav > a,
+footer > a {
+  color: antiquewhite;
+}
+
+nav > a {
+  margin: 0.5rem;
+}
+
+footer {
+  padding: 2vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  height: 80vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hero {
+  background-image: url("images/hands.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-headline {
+  font-size: 50px;
+  padding: 1rem;
+  background-color: antiquewhite;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  color: black;
+}
+
+.hero-subline {
+  font-size: 30px;
+}
+
+.hero-caption {
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+  color: antiquewhite;
+}
+
+.method,
+.resources {
+  background-color: khaki;
+}
+
+.staff {
+  background-color: lightblue;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
