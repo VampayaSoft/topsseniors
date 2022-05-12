@@ -36,6 +36,7 @@ footer {
 
 section {
   height: 80vh;
+  padding: 0 1rem;
 }
 
 h1 {
@@ -87,4 +88,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+li {
+  padding: 1rem;
 }
