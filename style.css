@@ -19,7 +19,7 @@ footer {
 }
 
 nav > a,
-footer > a {
+footer > p > a {
   color: antiquewhite;
 }
 
@@ -34,13 +34,23 @@ footer {
   flex-direction: column;
 }
 
+footer > p {
+  font-size: 16px;
+}
+
 section {
-  height: 80vh;
+  min-height: 80vh;
   padding: 0 1rem;
 }
 
 h1 {
   text-align: center;
+}
+
+p,
+li,
+span {
+  font-size: 18px;
 }
 
 .hero {
@@ -90,10 +100,53 @@ h1 {
   justify-content: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .column {
   flex-direction: column;
 }
 
 li {
   padding: 1rem;
+}
+
+.staff-img {
+  padding: 1rem;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.paypal {
+  border-radius: 0.5rem;
+  background-color: khaki;
+  height: 200px;
+  width: 200px;
+}
+
+.paypal-link {
+  width: 100%;
+  height: 100%;
+  background-image: url("paypal.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media (max-width: 768px) {
+  .staff-wrapper {
+    flex-direction: column;
+  }
 }
