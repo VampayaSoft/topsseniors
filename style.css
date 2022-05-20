@@ -53,6 +53,11 @@ span {
   font-size: 18px;
 }
 
+a:hover,
+a:focus {
+  outline: 2px dotted;
+}
+
 .hero {
   background-image: url("hands.jpg");
   opacity: 0.8;
@@ -115,6 +120,7 @@ li {
 .staff-img {
   padding: 1rem;
   width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
