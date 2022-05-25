@@ -155,4 +155,7 @@ li {
   .staff-wrapper {
     flex-direction: column;
   }
+  .staff-name {
+    text-align: center;
+  }
 }
