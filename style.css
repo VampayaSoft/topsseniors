@@ -19,7 +19,7 @@ footer {
 }
 
 nav > a,
-footer > p > a {
+footer > div > div > p > a {
   color: antiquewhite;
 }
 
