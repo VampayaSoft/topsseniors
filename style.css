@@ -60,6 +60,7 @@ a:focus {
 
 .hero {
   background-image: url("hands.jpg");
+  background-color: antiquewhite;
   opacity: 0.8;
   background-position: center;
   background-repeat: no-repeat;
@@ -141,6 +142,27 @@ li {
   position: relative;
 }
 
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 20em;
+  height: 15em;
+}
+
+.social-media {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.social-media-link {
+  margin-right: 1rem;
+}
+
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -152,10 +174,12 @@ li {
 }
 
 @media (max-width: 768px) {
-  .staff-wrapper {
+  .staff-wrapper,
+  .footer-row {
     flex-direction: column;
   }
-  .staff-name {
+  .staff-name,
+  .footer-row {
     text-align: center;
   }
 }
