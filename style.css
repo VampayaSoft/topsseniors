@@ -39,7 +39,7 @@ footer > p {
 }
 
 section {
-  min-height: 80vh;
+  min-height: 60vh;
   padding: 1rem;
 }
 
@@ -51,6 +51,10 @@ p,
 li,
 span {
   font-size: 18px;
+}
+
+p {
+  max-width: 75ch;
 }
 
 a:hover,
@@ -66,6 +70,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  min-height: 80vh;
 }
 
 .hero-headline {
@@ -91,12 +96,11 @@ a:focus {
   color: antiquewhite;
 }
 
-.method,
-.resources {
+.yellow-bg {
   background-color: khaki;
 }
 
-.staff {
+.blue-bg {
   background-color: lightblue;
 }
 
@@ -160,6 +164,7 @@ li {
 }
 
 .social-media-link {
+  color: antiquewhite;
   margin-right: 1rem;
 }
 
@@ -181,5 +186,8 @@ li {
   .staff-name,
   .footer-row {
     text-align: center;
+  }
+  .lvp-only {
+    display: none;
   }
 }
