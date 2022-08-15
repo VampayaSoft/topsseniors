@@ -2,6 +2,9 @@ body {
   background-color: antiquewhite;
   color: black;
   font-family: Arial;
+  line-height: 1.5em;
+  word-spacing: 0.16em;
+  letter-spacing: 0.12em;
 }
 
 nav {
@@ -43,10 +46,6 @@ section {
   padding: 1rem;
 }
 
-h1 {
-  text-align: center;
-}
-
 p,
 li,
 span {
@@ -55,6 +54,7 @@ span {
 
 p {
   max-width: 75ch;
+  margin: 2em 0;
 }
 
 a:hover,
@@ -75,6 +75,7 @@ a:focus {
 
 .hero-headline {
   font-size: 50px;
+  line-height: 1em;
   padding: 1rem;
   background-color: antiquewhite;
   text-align: center;
@@ -186,8 +187,5 @@ li {
   .staff-name,
   .footer-row {
     text-align: center;
-  }
-  .lvp-only {
-    display: none;
   }
 }
