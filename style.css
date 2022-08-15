@@ -53,8 +53,12 @@ span {
 }
 
 p {
-  max-width: 75ch;
   margin: 2em 0;
+}
+
+p,
+li {
+  max-width: 75ch;
 }
 
 a:hover,
