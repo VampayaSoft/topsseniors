@@ -138,9 +138,14 @@ li {
 
 .paypal {
   border-radius: 0.5rem;
-  background-color: #f1f6fc;
-  height: 200px;
+  height: 120px;
   width: 200px;
+}
+
+.paypal-small {
+  height: 80px;
+  width: 200px;
+  margin-bottom: 2rem;
 }
 
 .paypal-link {
@@ -170,6 +175,7 @@ li {
   padding: 5px;
   width: 30px;
   height: 30px;
+  background-color: white;
 }
 
 .social-media-link {
@@ -187,6 +193,22 @@ li {
   width: 1px;
 }
 
+.giving-tuesday {
+  background-color: white;
+}
+
+.giving-tuesday-image {
+  background-image: url("giving-tuesday.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30vh;
+}
+
+.giving-tuesday-text {
+  padding: 0 1rem;
+}
+
 @media (max-width: 768px) {
   .staff-wrapper,
   .footer-row {
@@ -195,5 +217,12 @@ li {
   .staff-name,
   .footer-row {
     text-align: center;
+  }
+  .giving-tuesday-image {
+    background-image: url("giving-tuesday-heart.png");
+    min-height: 21vh;
+  }
+  .giving-tuesday {
+    padding-top: 1rem;
   }
 }
