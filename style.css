@@ -193,6 +193,22 @@ li {
   width: 1px;
 }
 
+.giving-tuesday {
+  background-color: white;
+}
+
+.giving-tuesday-image {
+  background-image: url("giving-tuesday.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30vh;
+}
+
+.giving-tuesday-text {
+  padding: 0 1rem;
+}
+
 @media (max-width: 768px) {
   .staff-wrapper,
   .footer-row {
@@ -201,5 +217,12 @@ li {
   .staff-name,
   .footer-row {
     text-align: center;
+  }
+  .giving-tuesday-image {
+    background-image: url("giving-tuesday-heart.png");
+    min-height: 21vh;
+  }
+  .giving-tuesday {
+    padding-top: 1rem;
   }
 }
